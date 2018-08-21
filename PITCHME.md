@@ -1,6 +1,6 @@
-# Netflix
+# Eslint and Prettier
 
-### A GitPitch Presentation Template
+### 
 
 ---
 
