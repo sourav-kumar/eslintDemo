@@ -28,7 +28,49 @@
 
 - Run ESlint on any JS file or Directory that contains JS files |
 
+---
 
+@title[Sample configuration of ESLint]
+
+<p><span class="slide-title">Sample configuration of ESLint</span></p>
+
+```javascript
+var OFF = 0, WARN = 1, ERROR = 2;
+
+module.exports = exports = {
+  "extends": "prettier",
+  "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        // Possible Errors
+    "for-direction": ERROR,
+    "block-scoped-var": WARN,
+    "no-empty": WARN,
+    "no-extra-semi": WARN,
+    "no-dupe-args": ERROR,
+    
+    
+        // Best Practices
+    "no-unreachable": WARN,
+    "no-console": ERROR,
+        "vars-on-top": ERROR,
+    "no-alert": WARN,
+    "eqeqeq": ERROR,
+
+        // Variables
+        "no-unused-vars": [ERROR, { "args": "none" }],
+    
+        // Stylistic - everything here is a warning because of style.
+        "array-bracket-spacing": [ WARN, "never" ],
+    "no-spaced-func": WARN,
+    "no-trailing-spaces": WARN,
+
+        //Prettier Rules
+        "prettier/prettier": ["error", {"tabWidth": 4, "singleQuote": true, "printWidth": 100}]
+    }
+
+};
 
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
@@ -37,38 +79,8 @@
 @[8-18](Without ever leaving your slideshow.)
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
----
 
-@title[JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
 ```
-
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
 
 ---?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=scala&title=Scala GIST
 
