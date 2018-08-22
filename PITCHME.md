@@ -108,7 +108,6 @@ module.exports = {
 
 ---
 
-@title[Questions ?]
 
 ##Questions ?
 
