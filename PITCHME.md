@@ -15,7 +15,7 @@
 <br>
 - It is a linting tool, written using Node.js. |
 - It statically analyzes the code and finds the problematic patterns or code that doesn’t adhere to certain style guidelines. |
-- ESLint work against the configured pluggable rule. |
+- ESLint works against the configured pluggable rule. |
 
 ---
 ### Getting Started with ESLint
