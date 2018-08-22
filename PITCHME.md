@@ -4,7 +4,7 @@
 ---
 
 ### Why do we need Code Linter ?
-
+<br>
 - To find the errors in Code|
 - To follow same coding standard in team |
 - To find the potential errors |
@@ -12,13 +12,13 @@
 
 ---
 ### What is [ESLint](https://eslint.org) ?
-
+<br>
 - It is a linting tool, written using Node.js |
 - It statically analyzes the code and finds the problematic patterns or code that doesn’t adhere to certain style guidelines |
 - ESLint work against the configured pluggable rule |
 
 ---
-### Using ESLint
+### Installing ESLint
 
 
 
