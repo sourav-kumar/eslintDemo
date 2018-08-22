@@ -13,12 +13,21 @@
 ---
 ### What is [ESLint](https://eslint.org) ?
 <br>
-- It is a linting tool, written using Node.js |
-- It statically analyzes the code and finds the problematic patterns or code that doesn’t adhere to certain style guidelines |
-- ESLint work against the configured pluggable rule |
+- It is a linting tool, written using Node.js. |
+- It statically analyzes the code and finds the problematic patterns or code that doesn’t adhere to certain style guidelines. |
+- ESLint work against the configured pluggable rule. |
 
 ---
-### Installing ESLint
+### Getting Started with ESLint
+<br>
+- Install the eslint node module
+```
+    npm install -g eslint
+```
+ |
+- Create a configuration file(.eslintrc) |
+
+- Run ESlint on any JS file or Directory that contains JS files |
 
 
 
