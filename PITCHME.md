@@ -108,7 +108,7 @@ module.exports = {
 
 ---
 
-@title[Questions]
+@title[Questions ?]
 
-<p><span class="slide-title">Questions</span></p>
+##Questions ?
 
