@@ -1,6 +1,5 @@
-# Eslint and Prettier
+### Eslint and Prettier
 
-### 
 
 ---
 
