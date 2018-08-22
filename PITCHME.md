@@ -23,8 +23,7 @@
 - Install the eslint node module
 ```
     npm install -g eslint
-```
- |
+``` |
 - Create a configuration file(.eslintrc) |
 
 - Run ESlint on any JS file or Directory that contains JS files |
