@@ -39,8 +39,8 @@
 var OFF = 0, WARN = 1, ERROR = 2;
 
 module.exports = exports = {
-  "extends": "prettier",
-  "plugins": [
+    "extends": "prettier",
+    "plugins": [
         "prettier"
     ],
     "rules": {
@@ -73,70 +73,42 @@ module.exports = exports = {
 
 };
 ```
+---
+### What is [Prettier](https://prettier.io/) ?
+<br>
+- It is an opinionated code formatter |
+- Integrates with many editors |
+- Code will get formatted in no time |
+- No discussion for code format in code review |
 
+---
+### Getting Started with Prettier
+<br>
+- Install the prettier node module
+```
+    npm install -g prettier
+``` 
+- Create a configuration file(.prettierrc) |
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+- Run Prettier on any JS file or Directory that contains JS files |
 
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+---
 
+@title[Sample configuration of Prettier]
 
+<p><span class="slide-title">Sample configuration of Prettier</span></p>
+<br>
+
+```javascript
+module.exports = {
+  printWidth: 100,
+  semi: true
+};
 ```
 
----?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=scala&title=Scala GIST
-
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
-
 ---
 
-## Template Help
+@title[Questions]
 
-- [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
-- [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting), [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents), and [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
-
----
-
-## Go GitPitch Pro!
-
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
-
----
-
-### Questions?
-
-<br>
-
-@fa[twitter gp-contact](@gitpitch)
-
-@fa[github gp-contact](gitpitch)
-
-@fa[medium gp-contact](@gitpitch)
-
----?image=assets/image/gitpitch-audience.jpg
-
-@title[Download this Template!]
-
-### Get your presentation started!
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/netflix)
+<p><span class="slide-title">Questions</span></p>
 
