@@ -1,13 +1,27 @@
-### Eslint and Prettier
+### ESLint and Prettier
 
 
 ---
 
-## Why do we need Code Linter ?
+### Why do we need Code Linter ?
 
 - To find the errors in Code|
 - To follow same coding standard in team |
 - To find the potential errors |
+- To auto format the code |
+
+---
+### What is [ESLint](https://eslint.org) ?
+
+- It is a linting tool, written using Node.js |
+- It statically analyzes the code and finds the problematic patterns or code that doesn’t adhere to certain style guidelines |
+- ESLint work against the configured pluggable rule |
+
+---
+### Using ESLint
+
+
+
 
 ---?code=sample/go/server.go&lang=golang&title=Golang File
 
