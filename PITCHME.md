@@ -77,9 +77,9 @@ module.exports = exports = {
 ### What is [Prettier](https://prettier.io/) ?
 <br>
 - It is an opinionated code formatter |
-- Integrates with many editors |
-- Code will get formatted in no time |
-- No discussion for code format in code review |
+- Integrates with many editor |
+- Formats code in no time |
+- No need of discussion for code format in code review |
 
 ---
 ### Getting Started with Prettier
