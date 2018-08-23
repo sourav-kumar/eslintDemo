@@ -107,7 +107,10 @@ module.exports = {
 ```
 
 ---
+[ESLint and Prettier setup in IDE's link](https://confluence.corp.netsuite.com/display/PSGNFP/Code+formatting)
 
 
+
+---
 ## Questions ?
 
